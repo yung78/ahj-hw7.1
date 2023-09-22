@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./helpDesk/img/icon.ico" type="image/x-icon">
+    <title>CRM</title>
+  </head>
+  <body>
+    <main class="content">
+      <div class="helpDesk">
+        <div class="header">
+          <div class="add">Добавить тикет</div>
+        </div>
+        <div class="tickets">
+          <!-- <div class="full_ticket">
+            <div class="ticket_show">
+              <div class="status check"></div>
+              <div class="ticket_body">
+                <div class="name">Do something</div>
+                <div class="created">05.02.1985, 17:12:34</div>
+              </div>
+              <div class="actions">
+                <div class="edit"></div>
+                <div class="delete"></div>
+              </div>
+            </div>
+            <div class="ticket_hide"> Do anything you want, where you want and when you want...
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="modal_add_ticket">
+        <form class="form form_add_ticket">
+          <div class="form_header">Добавить тикет</div>
+          <label class="label" for="product_input">Краткое описание</label>
+          <textarea type="text" name="name" class="input name_input"></textarea>
+          <label class="label" for="description_input">Подробное описание</label>
+          <textarea name="description" class="input description_input"></textarea>
+          <div class="buttons">
+            <button type="button" class="button add_cancel_btn">Отмена</button>
+            <button type="submit" class="button add_save_btn">Сохранить</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal_delete_ticket">
+        <form class="form_delete_ticket">
+          <div class="form_header">Удалить тикет</div>
+          <div class="ask_delete_text">
+            Тикет будет удален безвозвратно! Вы уверены, что хотите удалить тикет?
+          </div>
+          <div class="buttons">
+            <button type="button" class="button delete_cancel_btn">Отмена</button>
+            <button type="submit" class="button delete_save_btn">Ok</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal_edit_ticket">
+        <form class="form form_edit_ticket">
+          <div class="form_header">Изменить тикет</div>
+          <label class="label" for="product_input">Краткое описание</label>
+          <textarea type="text" name="name" class="input name_input"></textarea>
+          <label class="label" for="description_input">Подробное описание</label>
+          <textarea name="description" class="input description_input"></textarea>
+          <div class="buttons">
+            <button type="button" class="button edit_cancel_btn">Отмена</button>
+            <button type="submit" class="button edit_save_btn">Сохранить</button>
+          </div>
+        </form>
+      </div>
+
+    </main>
+  </body>
+</html>

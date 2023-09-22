@@ -1,0 +1,274 @@
+.helpDesk {
+  width: 800px;
+  padding: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: right;
+}
+
+.add {
+  height: 40px;
+  width: 150px;
+  right: 0;
+
+  border: 1px solid #555;
+  border-radius: 10px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.add:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.tickets {
+  margin-top: 15px;
+}
+
+.full_ticket {
+  border: 1px solid #555;
+  margin-bottom: -1px;
+}
+
+.ticket_show {
+  height: 50px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket_hide {
+  width: 400px;
+  margin: 20px 87px;
+}
+
+.status {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  border: 2px solid #555;
+  border-radius: 16px;
+}
+
+.check {
+  background-image: url("../img/checkmark.png");
+  background-size: 30px, auto, contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.status:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.ticket_body {
+  height: 100%;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  
+  line-height: 50px;
+}
+
+.name {
+  width: 400px;
+}
+
+.created {
+  width: 180px;
+}
+
+.actions{
+  display: flex;
+  justify-content: space-around;
+}
+
+.edit {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+
+  background-image: url("../img/pencil.png");
+  background-size: 15px, auto, contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 2px solid #555;
+  border-radius: 16px;
+}
+
+.edit:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.delete {
+  height: 30px;
+  width: 30px;
+  margin-right: 16px;
+
+  background-image: url("../img/cross.png");
+  background-size: 15px, auto, contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 2px solid #555;
+  border-radius: 16px;
+}
+
+.delete:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+
+.modal_add_ticket {
+  display: none;
+}
+
+.modal_delete_ticket {
+  display: none;
+}
+
+.modal_edit_ticket {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.form {
+  width: 610px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+
+  font-size: 20px;
+  color: #555;
+}
+
+.form_header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input {
+  height: 40px;
+  width: 560px;
+  display: block;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #555;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  
+  resize: none;
+}
+
+.description_input {
+  height: 100px;
+}
+
+.label {
+  display: inline-block;
+
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  margin-top: 5px;
+  margin-right: 20px;
+
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+
+  border: 1px solid #555;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.form_delete_ticket {
+  width: 500px;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+
+  font-size: 20px;
+  color: #555;
+}
+
+.form_header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ask_delete_text {
+  margin: 30px 30px;
+}
