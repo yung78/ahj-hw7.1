@@ -93,6 +93,10 @@
   line-height: 50px;
 }
 
+.ticket_body:hover {
+  cursor: pointer;
+}
+
 .name {
   width: 400px;
 }
@@ -272,3 +276,4 @@
 .ask_delete_text {
   margin: 30px 30px;
 }
+

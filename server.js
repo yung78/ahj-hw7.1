@@ -55,6 +55,7 @@ app.use(async (ctx) => {
       return;
 
     case 'changeStatus':
+      ctx.response.body = allTickets;
       allTickets.forEach((el) => {
         if (el.id === ctx.request.query.id) {
           if (el.status) {
